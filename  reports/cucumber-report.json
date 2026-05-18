@@ -1,0 +1,170 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ixigo-flight-automation-suite;search-and-validate-filtered-flights-from-delhi-to-mumbai",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "Search and validate filtered flights from Delhi to Mumbai",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1107007599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 64,
+            "name": "I navigate to the ixigo flights page",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1145919999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "I select \"DELNew Delhi, Delhi,\" as the source city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 439007000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "I select \"BOMMumbai, Maharashtra,\" as the destination city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 653923199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "I select the departure date \"May 28, 2026\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 926767399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "I select 2 adults and Business class and click Done",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2983786799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "I click on the Search button",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183175900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "I sort the results by \"Cheapest\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 991191100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "I view flight details for the first result",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:192"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101793999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "I close the flight details popup",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 619282999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "I should see the filtered list of flights displayed correctly",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:202"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12701700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 368603100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ixigo-flight-automation-suite",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ixigo Flight Automation Suite",
+    "tags": [],
+    "uri": "tests\\features\\login.feature"
+  }
+]

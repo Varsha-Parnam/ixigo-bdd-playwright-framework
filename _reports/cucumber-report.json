@@ -1,0 +1,968 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ixigo-flight-automation-suite;search-and-sort-flights-by-cheapest-fare",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Search and sort flights by cheapest fare",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 977776100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to the ixigo flights page",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2413680000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I select \"DELNew Delhi, Delhi,\" as the source city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 401076399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I select \"BOMMumbai, Maharashtra,\" as the destination city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 683439599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select the departure date \"March 30, 2026\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3997797599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I select 2 adults and click Done",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1041830299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on the Search button",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206845999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I sort the results by \"Cheapest\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4099800299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the flight results sorted by price",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13267799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 336597400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ixigo-flight-automation-suite;search-and-sort-flights-by-cheapest-fare",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Search and sort flights by cheapest fare",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1015354500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to the ixigo flights page",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1053071100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I select \"BLRBengaluru, Karnataka,\" as the source city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380305199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I select \"MAAChennai, Tamil Nadu,\" as the destination city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350097000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select the departure date \"March 31, 2026\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 897926599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I select 2 adults and click Done",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 940957099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on the Search button",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242290099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I sort the results by \"Cheapest\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1101164199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the flight results sorted by price",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24790300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 340333800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ixigo-flight-automation-suite;search-and-filter-indigo-flights-from-mumbai-to-hyderabad",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Search and filter IndiGo flights from Mumbai to Hyderabad",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 945306199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I navigate to the ixigo flights page",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16552380800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I select \"BOMMumbai, Maharashtra,\" as the source city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 406169199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I select \"HYDHyderabad, Telangana,\" as the destination city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1020533999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I select the departure date \"March 24, 2026\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 951944799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I select 2 adults and click Done",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 916849100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click on the Search button",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428537300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I filter for the preferred airline",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6181116800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I view and close flight details for the first result",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 806041400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click on the Book button for the first result",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119690099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should be redirected to the next page",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368527000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 371440300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ixigo-flight-automation-suite;search-flight-from-chennai-to-bengaluru-and-attempt-login",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Search flight from Chennai to Bengaluru and attempt login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1056805700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I navigate to the ixigo flights page",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 994629699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I select \"MAAChennai, Tamil Nadu,\" as the source city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 445857199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I select \"BLRBengaluru, Karnataka,\" as the destination city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325818800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I select the departure date \"March 30, 2026\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922016499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I select 2 adults and click Done",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4108847999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I click on the Search button",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1379486699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I filter for the preferred airline",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1723725000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I select the first available flight",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144236900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I select the \"Assured\" fare option",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1911587400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I open the login modal",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58361000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I enter the mobile number \"86398773356\" and click Continue",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1486800999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should see the login modal or a validation state",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8261200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 321363499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ixigo-flight-automation-suite;search-and-filter-round-trip-flights-from-bangkok-to-goa",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Search and filter round trip flights from Bangkok to Goa",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1030216800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "I navigate to the ixigo flights page",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3060649600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I select the \"Round Trip\" tab",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 184054499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I select \"BKKBangkok, Bangkok,\" as the source city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270011299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I select \"GOIGoa, Goa, IndiaDabolim\" as the destination city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 432543699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I select the departure date \"March 30, 2026\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 935320099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I select the return date \"April 1, 2026\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308035900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I select 2 adults and click Done",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3004284899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I click on the Search button",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 596185800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I sort the results by \"Quickest\"",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:147"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4086107100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I view and close flight details for the first result",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1492501099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I click on the Book button for the first result",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59400400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I should be on the booking review page",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:152"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 887990000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 342414000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ixigo-flight-automation-suite;search-mumbai-to-hyderabad-flight-and-select-assured-protection",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Search Mumbai to Hyderabad flight and select Assured Protection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 877706500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 63,
+            "name": "the user is on the ixigo flights home page",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2632940100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "the user selects \"BOM\" as the departure city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 373921499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "the user selects \"HYD\" as the destination city",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:178"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1969836500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "the user selects \"March 30, 2026\" as the travel date",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68366800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "the user selects \"2\" adults from the traveler options",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 872259200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the user clicks the \"Done\" button",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:195"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50924899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "the user clicks the \"Search\" button",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:195"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54628800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "the user selects the third flight and filters by earliest",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:199"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3190359899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "the user clicks the \"Book\" button and handles the new tab",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15011985499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "the user selects the \"Assured Most Popular Free\" protection",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:219"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2069865099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "the user should see the final booking page",
+            "match": {
+              "location": "tests\\stepDefination\\loginSteps.js:227"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17033899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 339747099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ixigo-flight-automation-suite",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ixigo Flight Automation Suite",
+    "tags": [],
+    "uri": "tests\\features\\login.feature"
+  }
+]
